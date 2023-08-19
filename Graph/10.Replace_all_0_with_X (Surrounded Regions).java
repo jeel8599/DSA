@@ -44,8 +44,8 @@ class Replace_all_0_with_X_Solution{
 
         //last col
         for(int i=0;i<n;i++){
-            if(mat[i][n-1] == 'O' && vis[i][n-1] == false){
-                replaceDfs(i, n-1, mat, vis, n, m, delrow, delcol);
+            if(mat[i][m-1] == 'O' && vis[i][m-1] == false){
+                replaceDfs(i, m-1, mat, vis, n, m, delrow, delcol);
             }
         }
 
